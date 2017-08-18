@@ -34,6 +34,10 @@ dependencies {
             "org.apache.tomcat.embed:tomcat-embed-jasper:${tomcatVersion}"
 }
 
+tomcat {
+    contextPath = "/"
+}
+
 compileKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
